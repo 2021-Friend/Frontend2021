@@ -1,0 +1,46 @@
+/*------------Global classes-------------*/
+a{
+    text-decoration: none;
+    color: var(--text-gray);
+}
+.flex-row{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+h1{
+    font-family: var(--rock);
+    font-size: 2.5rem;
+}
+h3{
+    font-family: var(--acme);
+    font-size: 1.3rem;
+}
+h2{
+    font-family: var(--merri);
+}
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--rock);
+    cursor: pointer;
+}
+span{
+    font-family: var(--merri);
+}
+.container{
+    margin: 0 5vh;
+}
+.text-gray{
+    color: var(--text-gray);
+}
+p{
+    font-family: var(--rock);
+    color: var(--text-light);
+}
+/*------------Global classes-------------*/

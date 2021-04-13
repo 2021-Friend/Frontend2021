@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome css file-->
+    <link rel="stylesheet" href="../frontend/css/all.css">
+    <!--owl-carousel css file-->
+    <link rel="stylesheet" href="../frontend/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../frontend/css/owl.theme.default.min.css">
+    <!--animation on scroll library (AOS) css file-->
+    <link rel="stylesheet" href="../frontend/css/aos.css">
+    <!--custom css file-->
+    <link rel="stylesheet" href="../frontend/css/stylepg.css">
+    <title>Blogger</title>
+</head>
+
+<body>
+    <!---------------------Navigation bar---------------------------->
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">Blogger</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="Category.html">Category</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Archives</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Pages</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="login.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social text-gray">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-----------x---------Navigation bar------------x--------------->
+
+<body>
+    <div class="login-card">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="bt"></div>
+                <button type="button" class="toggle-btn" onclick="login()">LOGIN</button>
+                <button type="button" class="toggle-btn" onclick="register()">REGISTER</button>
+            </div>
+            <div class="social text-gray">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+            <form id="login" class="input-group" action="../frontend/indexpg.html">
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"> <span>Remember Me</span>
+                <button type="submit" class="submit-bt">Login</button>
+            </form>
+
+            <form id="register" class="input-group" action="#login">
+                <input type="text" class="input-field" placeholder="Name" required>
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"> <span>I agree to the terms & conditions</span>
+                <button type="submit" class="submit-bt">Register</button>
+            </form>
+        </div>
+    </div>
+    
+
+    <script>
+        var x=document.getElementById("login");
+        var y=document.getElementById("register");
+        var z=document.getElementById("bt");
+
+        function register(){
+            x.style.left="-400px"
+            y.style.left="50px"
+            z.style.left="110px"
+        }
+        function login(){
+            x.style.left="50px"
+            y.style.left="450px"
+            z.style.left="0px"
+        }
+    </script>
+</body>
+
+</html>

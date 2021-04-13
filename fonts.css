@@ -1,0 +1,28 @@
+
+/*font-Merriweather */
+@font-face{
+    font-family:Merriweather ;
+    src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+}
+/*font-Berkshine*/
+@font-face{
+    font-family:Berkshine ;
+    src: url(../fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf);
+}
+/*font-RocknRoll_One*/
+@font-face{
+    font-family:RocknRoll_One ;
+    src: url(../fonts/RocknRoll_One/RocknRollOne-Regular.ttf);
+}
+
+/*font-Acme*/
+@font-face {
+    font-family:Acme-Regular ;
+    src: url(../fonts/Acme-Regular.ttf);
+}
+
+/*font-Pacifico*/
+@font-face{
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
